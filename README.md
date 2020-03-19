@@ -2,6 +2,8 @@
 
 Python controller is used to drive a car autonomously around a track in Carla Simulator.
 
+![](./imgs/carla.jpg)
+
 ### Project notes:
 
 The waypoints include positions as well as the speed the vehicle should attain. As a result, the waypoints
