@@ -19,14 +19,15 @@ The throttle and brake come from the Longitudinal speed control and the steering
 
 - __Server terminal:__
 ```
-cd $HOME /opt/CarlaSimulator      # where the CarlaSimulator is located`
+cd /path_to/CarlaSimulator      # where the CarlaSimulator is located
 
-./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -ResX=640 -ResY=480 -benchmark -fps=20`
+./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -ResX=640 -ResY=480 -benchmark -fps=20
 ```
 
 - __Client terminal:__
 ```
-cd $HOME /opt/CarlaSimulator/PythonClient/Course1FinalProject`
+cd /path_to/CarlaSimulator/PythonClient/vehicle_control
 
-python3 module_7.py`
+python3 module_7.py
 ```
+**NOTE**: clone this repo within */path_to/CarlaSimulator/PythonClient* forlder
